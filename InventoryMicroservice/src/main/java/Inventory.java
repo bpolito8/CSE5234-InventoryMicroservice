@@ -28,11 +28,11 @@ public class Inventory extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
         
-        products.add(new Product(1, "Aoenium", 7.99, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg"));
-        products.add(new Product(1, "Aoenium", 7.99, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg"));
-        products.add(new Product(1, "Aoenium", 7.99, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg"));
-        products.add(new Product(1, "Aoenium", 7.99, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg"));
-        products.add(new Product(1, "Aoenium", 7.99, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg"));
+        products.add(new Product(1, "Aoenium", 7.99, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg", 100));
+        products.add(new Product(2, "Kalanchoe", 6.99, "Kalanchoe is a beautiful flowering plant that is both easy and rewarding to grow indoors or outdoors.", "assets/imgs/kalanchoe.jpg", 100));
+        products.add(new Product(3, "Senecio", 2.99, "Senecio is a genus of flowering plants that contains more than 1000 species of groundsels, ragworts, and dusty miller.", "assets/imgs/senecio.jpg", 100));
+        products.add(new Product(4, "Sempervivum", 6.35, "Sempervivum is a genus of about 40 species of flowering plants that are commonly known as Houseleeks or Hen and Chicks.", "assets/imgs/sempervivum.jpg", 100));
+        products.add(new Product(5, "Crassula", 7.49, "Aeoniums are most commonly known for their striking rosettes made up of dense, glossy, waxy leaves growing out of a single stem.", "assets/imgs/aeonium.jpg", 100));
         
     }
 
